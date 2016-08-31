@@ -1,0 +1,105 @@
+.xss-banner{
+    width: 100%;
+    height: 25.5rem;
+    background-color: #f3f6f6;
+}
+.xss-banner div{
+    width: 15.1rem;
+    height: 15.1rem;
+    margin:0 auto;
+    padding-top: 5.1rem;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+.xss-banner div h1{
+    font-size: 5.5rem;
+    padding-top: 4rem;
+    line-height: 5.1rem;
+    font-weight: normal;
+}
+.xss-banner div p{
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+    line-height: 1.2rem;
+}
+/*不同样式*/
+.joba{
+    background-image: url("../images/quality02.png");
+}
+.jobb{
+    background-image: url("../images/quality03.png");
+}
+.jobc{
+    background-image: url("../images/quality01.png");
+}
+.joba h1{
+    color: #57d1ae;
+}
+.jobb h1{
+    color: #bfbfbf;
+}
+.jobc h1{
+    color: #fb5151;
+}
+.joba p{
+    color: #57d1ae;
+}
+.jobb p{
+    color: #bfbfbf;
+}
+.jobc p{
+    color: #fb5151;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+table th{
+    line-height: 8.3rem;
+    color: #1d3462;
+    font-size: 1.7rem;
+    font-weight: normal;
+}
+table td{
+    height: 5.5rem;
+    border-top: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+    font-size: 1.4rem;
+    color: #606060;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

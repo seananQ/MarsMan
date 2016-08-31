@@ -1,0 +1,100 @@
+.xss-login{
+    height: 100vh;
+    background-image:url("../images/loginpic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 0 4vw;
+    z-index: 999;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 0;
+}
+.xss-login:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgba(0,0,0,0.8);
+}
+.xss-login img{
+    height: 13vh;
+    padding-top: 15vh;
+}
+.xss-form{
+    padding-top: 6vh;
+    font-family: "微软雅黑";
+}
+.xss-form div{
+    padding-bottom: 3vh;
+}
+.xss-form img{
+    height: 4vh;
+    padding: 4vh 1vw 0 1vh;
+    vertical-align: bottom;
+}
+.xss-form input{
+    background: none;
+    border-bottom: 1px solid #808080;
+    width: 78%;
+    color: #808080;
+    font-size: 1.6rem;
+    padding: 0.5rem 0.5rem;
+    letter-spacing: 2px;
+    font-family: Arial;
+}
+#info{
+    display: inline-block;
+    width: 100%;
+    height: 5vh;
+    line-height: 5vh;
+    font-size: 1.5rem;
+    color: red;
+    padding-top: 3vh;
+}
+#btn{
+    width: 80%;
+    height: 8vh;
+    line-height: 8vh;
+    background: none;
+    border: 3px solid #19adb9;
+    border-radius: 4.7rem;
+    margin-top: 4vh;
+    color: #fff;
+    font-size: 1.7rem;
+    margin-left: 2rem;
+    box-sizing: border-box;
+}
+.xss-form a{
+    font-size: 1.4rem;
+    color: #808080;
+    line-height: 3.8rem;
+}
+.xss-form span{
+    font-size: 1.6rem;
+    color: #808080;
+}
+#tips{
+    font-size: 1rem;
+    color: #808080;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1rem;
+    letter-spacing: 1px;
+}
+#tips span{
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+

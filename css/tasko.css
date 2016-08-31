@@ -1,0 +1,181 @@
+body{
+	overflow: hidden;
+}
+.cjy-content{
+	padding:0 1.5rem;
+}
+.cjy-content-top{
+	width: 100%;
+	font-size: 0;
+	padding-top: 2vh;
+}
+
+.cjy-content h2{
+	float: left;
+	font-size: 3vh;
+	line-height: 5vh;
+	color:#303030;
+}
+.cjy-content-top .fzk-right{
+	float: right;
+	width: 50%;
+}
+.fzk-right div{
+	display: inline-block;
+	width: 50%;
+	text-align: right;
+	height: 5vh;
+	position: relative;
+}
+.fzk-right img{
+	width: 1.5rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.fzk-right span{
+	font-size: 1rem;
+	line-height: 5vh;
+	vertical-align: top;
+}
+.cjy-content-rightone{
+	font-size:1rem;
+	color:#bfbfbf;
+	display: inline-block;
+	padding-left: 2%;
+ }
+.cjy-content-righttwo{
+	display: inline-block;
+	padding-left:2%;
+}
+.cjy-content-right div span{
+	padding-left:0.8rem;
+}
+.cjy-content-bottom{
+	padding: 1vh 0;
+}
+.cjy-content-bottom img{
+	width: 11vw;
+	border-radius: 50%;
+}
+.cjy-content-bottom span{
+	font-size: 4.5vw;
+	color:#606060;
+	line-height: 11vw;
+	vertical-align:top;
+	padding-left: 1rem;
+}
+.cjy-task{
+	margin:0 1.6%;
+}
+.cjy-taskPic{
+	width:100%;
+	background-size: cover;
+	background-image: url("../images/story01.jpg");
+	background-repeat: no-repeat;
+	position: relative;
+}
+.cjy-task .cjy-circleC{
+	display: inline-block;
+	width: 100%;
+	margin: 0 auto;
+}
+.cjy-task .cjy-circle{
+	width:100%;
+}
+.cjy-taskPic h3{
+	margin-bottom:1.3rem;
+	color:#fff;
+}
+.cjy-taskPic h3,.cjy-taskPic .cjy-picColor{
+	text-align: center;
+	font-size:1.5rem;
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.cjy-taskPic h3{
+	padding-top: 26.2rem;
+}
+.cjy-taskPic .cjy-picColor{
+	margin-bottom:2.25rem;
+}
+.cjy-taskPic .cjy-circleColor{
+	margin-top:6rem;
+}
+.cjy-circleC{
+	font-size: 0;
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.cjy-circleC div{
+	display: inline-block;
+	text-align: center;
+	font-size: 0.6rem;
+	width: 16.6%;
+}
+.cjy-circleC div img{
+	width: 1.7rem;
+	height: 1.7rem;
+	border-radius: 50%;
+	box-shadow: 0 0 3px #ccc;
+}
+/*这是分享弹出框*/
+.cjy-bg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.cjy-shares{
+	width: 74.4%;
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	border: 1px #ccc solid;
+	border-radius: 1.25rem;
+	background-color:#008235;
+	overflow: hidden;
+	border: 0;
+}
+.cjy-share-content{
+	height: 21.2rem;
+	background-color:#fff;
+}
+.cjy-share-content h3{
+	font-size: 2rem;
+	color:#303030;
+	text-align: center;
+	padding-top: 3.6rem;
+}
+.cjy-share-pic{
+	display:flex;
+	justify-content: space-around;
+	margin-top: 3.25rem;
+}
+.cjy-share-pic div img{
+	width: 4.3rem;
+	height: 4.3rem;
+}
+.cjy-share-pic div p{
+	margin-top: 1.3rem;
+	font-size: 1rem;
+	color: #606060;
+}
+.cjy-buttons,.cjy-buttons:link{
+	width: 100%;
+	height:4.3rem;
+	line-height: 4.3rem;
+	text-align: center;
+	font-size:1.7rem;
+	color: #fff;
+	display:inline-block;
+}

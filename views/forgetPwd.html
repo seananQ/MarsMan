@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>forgetPwd</title>
+    <link href="../css/base.css" rel="stylesheet">
+    <link href="../css/forgetPwd.css" rel="stylesheet">
+    <script src="../lib/angular.js"></script>
+    <script src="../js/forgetPwd.js"></script>
+    <script>
+        //1.创建一个模板
+        var myapp = angular.module("myapp", []);
+        //2.注册一个控制器
+        myapp.controller("formCtrl", function ($scope) {
+
+        })
+    </script>
+</head>
+<body ng-app="myapp" ng-controller="formCtrl">
+<header>
+    <div class="common-header">
+        <a href="../login.html"><img src="../images/back07.png" class="pic-left"></a>
+
+        <p>忘记密码</p>
+    </div>
+</header>
+<section>
+    <form name="forPwdForm" method="" action="" novalidate>
+        <div class="text1"><input type="text" placeholder="电话" class="tel" id="tel"><span id="spy"></span><br></div>
+        <div class="yanZhen">
+            <input type="text" placeholder="验证码" id="yzm">
+
+            <div>
+                <p id="yanzhen">获取验证码</p>
+
+                <p id="p1" style="display: none"><span id="span2">56</span>秒点击重发</p>
+            </div>
+        </div>
+        <div class="xMiMa">
+            <input type="password" placeholder="新密码" class="newPwd" name="nPwd" ng-model="nPwd" ng-minlength="6"
+                   required>
+            <span ng-show="forPwdForm.nPwd.$invalid && forPwdForm.nPwd.$dirty" class="oPwd">密码不能少于6位</span>
+            <br>
+        </div>
+        <div class="qRen">
+            <input type="password" placeholder="确认新密码" class="enPwd" name="ePwd" ng-model="ePwd" ng-minlength="6"
+                   required>
+            <span ng-show="forPwdForm.ePwd.$invalid && forPwdForm.ePwd.$dirty" class="nPwd">密码不能少于6位</span>
+            <span id="span1"></span>
+        </div>
+        <br>
+        <button type="button" ng-disabled="forPwdForm.$invalid">提交</button>
+    </form>
+</section>
+</body>
+</html>

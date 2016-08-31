@@ -1,0 +1,199 @@
+﻿header {
+    height: 5.5rem;
+}
+section{
+   background: #f7f7f7;
+}
+
+.tww-main {
+    height: 36vh;
+    background: #f7f7f7;
+    padding-top: 3vh;
+    text-align: center;
+}
+
+.tww-box {
+    height: 22vh;
+    background: #fff;
+    border: 1px solid #d4d4d4;
+    border-radius: 6px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3vh;
+    width: 94%;
+    outline: none;
+    resize:none;
+    line-height: 2rem;
+    font-size: 1.8rem;
+    padding-left: 4%;
+    padding-top: 1rem;
+    box-sizing: border-box;
+}
+
+.tww-help {
+    width: 36%;
+    height: 3.4rem;
+    line-height: 3.4rem;
+    background: #9ad7db;
+    font-size: 1.6rem;
+    text-align: center;
+    border-radius: 1.6rem;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+
+}
+
+.tww-footer_t {
+    height: 7.6rem;
+    border-bottom: 1px solid #f4f5f6;
+    display: none;
+}
+
+.fzk-box ul:first-child{
+    display: none;
+}
+.fzk-section{
+    overflow-y: scroll;
+    height: 52vh;
+}
+.tww-footer_t li{
+    font-size: 1.7rem;
+    color: #303030;
+    line-height: 7.6rem;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    width: 33.3%;
+}
+
+.tww-footer_m {
+    height: 7.6rem;
+    border-bottom: 1px solid #f4f5f6;
+    text-align: center;
+    display: none;
+}
+.tww-time {
+    padding-top: 2.7rem;
+    font-size: 1rem;
+    color: #606060;
+    float: left;
+    text-align: center;
+}
+.tww-solve {
+    padding-top: 3.2rem;
+    font-size: 1.4rem;
+    color: #606060;
+    float: left;
+    text-align: center;
+}
+
+.tww-value {
+    background: #19adb9;
+    width: 50.7%;
+    height: 2.3rem;
+    margin-top: 2.7rem;
+    text-align: center;
+    line-height: 2.3rem;
+    border-radius: 2.3rem;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+}
+
+.tww-footer_b {
+    text-align: center;
+    height: 7.6rem;
+    display: none;
+    
+}
+
+.tww-time1 {
+    padding-top: 2.7rem;
+    font-size: 1rem;
+    color: #606060;
+    float: left;
+}
+
+.tww-aSolve {
+    padding-top: 3.2rem;
+    font-size: 1.4rem;
+    color: #606060;
+    float: left;
+}
+
+.tww-aValue {
+    padding-top: 3.2rem;
+    font-size: 1.4rem;
+    color: #606060;
+    width: 16.7%;
+    text-align: center;
+    float: left;
+}
+.tww-getHelp{
+    padding-top: 15vh;
+    font-size: 1.7rem;
+    color: #606060;
+    text-align: center;
+}
+.tww-footer_m li{
+    width: 33.3%;
+    float: left;
+}
+.tww-footer_b li{
+    width: 33.3%;
+    float: left;
+}
+.tww-alert {
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.tww-btn {
+    height: 21.4rem;
+    width: 73%;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    border-radius: 1.2rem;
+}
+
+.tww-satisfy {
+    height: 9.8rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tww-satisfy img {
+    height: 4.4rem;
+    margin-top: 4.9rem;
+}
+
+.tww-btn p {
+    color: #606060;
+    height: 7.3rem;
+    font-size: 1.7rem;
+    line-height: 7.3rem;
+    text-align: center;
+    letter-spacing: 2px;
+}
+button {
+    height: 4.4rem;
+    background: #19adb9;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+    font-family: "微软雅黑";
+}
+
+

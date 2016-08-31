@@ -1,0 +1,36 @@
+{
+    "busiCode": "101010",
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "totalPage": 45,
+        "currpage": 2,
+        "newsList": [
+            {
+                "id": 888,
+                "title": "2016春季招聘会",
+                "type": 1,
+                "createTime": "2016-12-31"
+            },
+            {
+                "id": 555,
+                "title": "获奖信息",
+                "type": 3,
+                "createTime": "2016-01-31"
+            },
+            {
+                "id": 444,
+                "title": "秋季招聘",
+                "type": 4,
+                "createTime": "2015-09-20"
+            },
+            {
+                "id": 333,
+                "title": "最新资讯",
+                "type": 5,
+                "createTime": "2015-03-14"
+            }
+        ]
+    }
+}
+

@@ -1,0 +1,44 @@
+.main{
+	padding: 0 1.6%;
+}
+.list{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 0.6rem;
+}
+.sublist{
+	width: 49%;
+	font-size: 0;
+	border-radius: 7px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.sublist>img{
+	width: 100%;
+}
+.sublist div{
+	height: 3.2rem;
+	padding: 1.3rem 0;
+	border-bottom: 1px solid #efefef;
+}
+.sublist div img{
+	height: 3.2rem;
+	padding-left: 1rem;
+	padding-right: 0.9rem;
+	border-radius: 50%;
+}
+.sublist div h2{
+	font-size: 1.6rem;
+	line-height: 3.2rem;
+	color: #303030;
+	vertical-align: top;
+	display: inline-block;
+}
+.sublist p{
+	height: 4.8rem;
+	font-size: 1.2rem;
+	color: #808080;
+	line-height: 4.8rem;
+	padding-left: 1rem;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="../css/base.css" rel="stylesheet">
+    <link href="../css/joba.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <script src="../lib/angular.js"></script>
+    <script type="text/javascript" src="../lib/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../lib/base.js"></script>
+    <script type="text/javascript" src="../lib/project_base.js"></script>
+    <script src="../lib/radialindicator.js"></script>
+    <script src="../lib/demo.js"></script>
+    <script src="../js/chb-js.js"></script>
+    <title>joba</title>
+</head>
+<body ng-app="myapp" ng-controller="chb-myCtrl">
+<div class="common-header">
+    <a href="home.html">
+        <img src="../images/back07.png" class="pic-left">
+    <p>职业素质分</p>
+    </a>
+</div>
+<section class="xss-banner">
+    <div id="sideContent" class="chb-posi">
+        <div id="example">
+            <div class="prg-cont rad-prg" id="indicatorContainer3" style="display: none"></div>
+            <div class="prg-cont rad-prg" id="indicatorContainer4">
+                <p class="chb-percent" >请继续保持良好的<br>考勤和学习状态</p>
+            </div>
+        </div>
+    </div>
+    <!--<div class="joba">-->
+        <!--<h1>95</h1>-->
+        <!--<p>请继续保持良好的<br>考勤和学习状态</p>-->
+    <!--</div>-->
+</section>
+<table>
+    <tr>
+        <th>时间</th>
+        <th>调整分数</th>
+        <th>说明</th>
+    </tr>
+    <tr ng-repeat="item in x">
+        <td>{{item.time}}</td>
+        <td>{{item.point}}</td>
+        <td>{{item.explain}}</td>
+    </tr>
+</table>
+</body>
+</html>

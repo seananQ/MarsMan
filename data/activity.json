@@ -1,0 +1,47 @@
+{
+  "busiCode":"101026",
+  "code": 200,
+  "msg": "成功",
+  "data": {
+    "totalPage": 10,
+    "currPage": 2,
+    "list": [
+      {
+        "id": 1,
+        "image": "../images/index_banner.png",
+        "title": "活动标题 ",
+        "subTitle": "副标题",
+        "address": "上海市浦东新区",
+        "time": "2016-10-12",
+        "isEnd": true
+      },
+      {
+        "id": 1,
+        "image": "../images/index_banner2.png",
+        "title": "活动标题 ",
+        "subTitle": "副标题",
+        "address": "上海市浦东新区",
+        "time": "2015-08-26",
+        "isEnd": true
+      },
+      {
+        "id": 1,
+        "image": "../images/index_banner3.png",
+        "title": "活动标题 ",
+        "subTitle": "副标题",
+        "address": "上海市浦东新区",
+        "time": "2015-06-05",
+        "isEnd": true
+      },
+      {
+        "id": 1,
+        "image": "../images/index_banner4.png",
+        "title": "活动标题 ",
+        "subTitle": "副标题",
+        "address": "上海市浦东新区",
+        "time": "2015-03-10",
+        "isEnd": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+section{
+    padding: 0 1.7rem;
+}
+h2{
+    font-size: 1.8rem;
+    line-height: 3.1rem;
+    font-weight: normal;
+    color: #606060;
+    padding-top: 2rem;
+}
+h2 span{
+    float: right;
+    font-size: 1.4rem;
+    color: #19adb9;
+}
+h4{
+    font-size: 3.5vw;
+    color: #606060;
+    font-weight: normal;
+    line-height: 5rem;
+    border-bottom: 1px solid #e2e0e0;
+}

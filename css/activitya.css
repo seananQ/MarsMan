@@ -1,0 +1,201 @@
+body{
+    overflow: auto;
+}
+section{
+    overflow: hidden;
+}
+#activitis-total{
+    margin-left: 0;
+}
+
+.cgtop{
+    float: left;
+    width: 100vw;
+}
+.cgtop .banner{
+    width: 100%;
+    height: 16.85rem;
+    background-size: cover;
+    position: relative;
+}
+.cgtop .banner:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12,21,39,0.5);
+}
+.cgtop .banner-words{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    text-align: center;
+    width: 18.5rem;
+    height: 7.8rem;
+    border: 2px solid #fff;
+    margin: 0 auto;
+}
+.cgtop .banner-words h3{
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: normal;
+    line-height: 2.1rem;
+    padding-top: 1.8rem;
+    letter-spacing: 0.1rem;
+}
+.cgtop .banner-words p{
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+    letter-spacing: 0.1rem;
+}
+.cgtop .banner1{
+    background-image:url("../images/cgtop01.jpg");
+}
+.cgtop .banner2{
+    background-image:url("../images/cgtop02.jpg");
+}
+.cgtop .banner3{
+    background-image:url("../images/cgtop03.jpg");
+}
+
+.activity{
+    float: left;
+    width: 100vw;
+}
+.activity h2{
+    font-size: 1.7rem;
+}
+.activity .main{
+    padding-bottom: 5.5rem;
+}
+.activity .item{
+    font-size: 0;
+    padding-bottom: 1rem;
+}
+.activity .pic{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.activity .pic span{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.activity .end{
+    position: absolute;
+    bottom: 6vh;
+    right: 8vw;
+    height: 10vh;
+    transform: rotate(-32deg);
+}
+.activity .pic > img{
+    width: 100%;
+}
+.activity .text,.tag{
+    margin: 0 1.5rem;
+}
+.activity .text h2{
+    line-height: 2.5rem;
+    padding-top: 1rem;
+    font-weight: normal;
+}
+.activity .text p{
+    color: #606060;
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+}
+.activity .tag span{
+    color: #606060;
+    font-size: 1.4rem;
+    vertical-align: top;
+    line-height: 2.2rem;
+}
+.activity .tag img{
+    height: 1.2rem;
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+}
+.activity .tag-left{
+    float: left;
+}
+.activity .tag-right{
+    float: right;
+    padding-right: 2rem;
+}
+
+.broadcast{
+    float: left;
+    width: 100vw;
+}
+.broadcast .main{
+    padding-bottom: 5.3rem;
+}
+.broadcast .main .list{
+    color: #606060;
+}
+.broadcast .main .list h3{
+    font-size: 1.6rem;
+    font-weight: normal;
+    padding: 2vh 4vw 0;
+    line-height: 2.6rem;
+    color: #606060;
+}
+.broadcast .main .list span{
+    float: right;
+    font-size: 1.3rem;
+    color: #606060;
+}
+.broadcast .main .list p{
+    font-size: 1.3rem;
+    color: #16adb4;
+    padding: 1vh 4vw;
+}
+.broadcast .main .list h4{
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+    font-weight: normal;
+    padding: 0 4vw 1vh;
+    border-bottom: 2px solid #efefef;
+    color: #606060;
+}
+
+.emalable{
+    float: left;
+    width: 100vw;
+    text-align: center;
+}
+.emalable .chb-pic .chb-midpic{
+    margin-top: 10rem;
+    width: 15.8rem;
+}
+.emalable .chb-pic p{
+    margin-top: 5rem;
+    font-size: 1.7rem;
+    color:#000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

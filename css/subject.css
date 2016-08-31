@@ -1,0 +1,72 @@
+.subjects1{
+    width: 96%;
+    margin: 0 2%;
+    border-bottom: 1px solid #bfbfbf;
+}
+.logo{
+    height: 3.75rem;
+    padding-top: 2.175rem;
+    padding-left: 1rem;
+    padding-right: 1.3rem;
+}
+.words-right{
+    display: inline-block;
+}
+.words-right h2{
+    font-size: 2rem;
+    line-height: 3.4rem;
+    font-weight: normal;
+    color: #303030;
+}
+.words-right p{
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #606060;
+    padding-bottom: 1.4rem;
+}
+.date{
+    background-image: url("../images/subject.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 27rem;
+    display: none;
+}
+.date li{
+    margin: 0 1.7rem 0 1.7rem ;
+    line-height: 4.7rem;
+    border-bottom: 1px solid #bfbfbf;
+    font-size: 1.4rem;
+    color: #606060;
+}
+.date li:first-child{
+    margin-top: 1.3rem;
+}
+.date li span{
+    padding-left: 1.7rem;
+    font-size: 1rem;
+}
+.date li img{
+    height: 0.9rem;
+    padding-left: 3.3rem;
+    padding-right: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

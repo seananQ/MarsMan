@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="../css/base.css" rel="stylesheet">
+    <link href="../css/broadcasta.css" rel="stylesheet">
+    <script src="../lib/angular.js"></script>
+    <script type="text/javascript" src="../lib/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="../js/activitya.js"></script>
+    <title>broadcasta</title>
+</head>
+<body ng-app="app" ng-controller="myCtrl">
+    <div class="common-header">
+        <a href="activitya.html">
+            <img src="../images/back07.png" class="pic-left">
+        </a>
+        <p>校园广播</p>
+    </div>
+    <section ng-model="details.data">
+        <h2>{{details.data.title}}<span>{{details.data.subTitle}}</span></h2>
+        
+        <h4>开始时间 : {{details.data.beginTime}}</h4>
+        <h4>结束时间 : {{details.data.endTime}}</h4>
+        <h4>主题 : {{details.data.content}}</h4>
+    </section>
+</body>
+</html>

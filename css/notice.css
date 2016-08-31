@@ -1,0 +1,72 @@
+.tag{
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #efefef;
+}
+.content{
+	margin: 0 1.5rem;
+	font-size: 1.4rem;
+	line-height: 2.3rem;
+	color: #606060;
+}
+.content h2{
+	line-height: 2rem;
+	padding-bottom: 0.5rem;
+	color: #000;
+	font-weight: normal;
+}
+.cjy-bg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.cjy-shares{
+	width: 74.4%;
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	border: 1px #ccc solid;
+	border-radius: 1.25rem;
+	background-color:#008235;
+	overflow: hidden;
+	border: 0;
+}
+.cjy-share-content{
+	height: 30vh;
+	background-color:#fff;
+}
+.cjy-share-content h3{
+	font-size: 2rem;
+	color:#303030;
+	text-align: center;
+	padding-top: 4vh;
+}
+.cjy-share-pic{
+	display:flex;
+	justify-content: space-around;
+	margin-top: 4vh;
+}
+.cjy-share-pic div img{
+	width: 13vw;
+	
+}
+.cjy-share-pic div p{
+	margin-top: 1.3rem;
+	font-size: 1rem;
+	color: #606060;
+}
+.cjy-buttons{
+	width: 100%;
+	height:4.3rem;
+	line-height: 4.3rem;
+	text-align: center;
+	font-size:1.7rem;
+	color: #fff;
+	display:inline-block;
+
+}
